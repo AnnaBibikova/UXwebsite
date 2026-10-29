@@ -1,6 +1,6 @@
-# Save a completed copy as .env beside server.js.
+# Save a completed copy locally as .env.
 # Replace the placeholder with your Jira personal access token.
-# Keep the completed file on your computer; never commit or share it.
+# Keep the completed file private; do not upload or share it.
 JIRA_BASE_URL=https://support.nov.com
 JIRA_API_VERSION=2
 JIRA_API_TOKEN=PASTE_YOUR_JIRA_TOKEN_HERE
