@@ -1,18 +1,13 @@
-# Signal — UX evidence to action
+# UX Insights
 
-A no-build, static HTML dashboard for sharing anonymized UX evidence, product behavior signals, and suggested next steps. It uses sample content only and can be hosted on GitHub Pages.
+A simple static GitHub Pages site for capturing UX observations, customer complaints, overheard comments, and ideas. The Friction finder tab is a placeholder for a future Pendo connection.
 
-## Update the content
+## Notes and privacy
 
-Open `index.html`. The `insights` list near the bottom of the file contains the example signals. Copy an entry and update its title, detail, source (`Research`, `Behavior`, or `Support`), priority (`High`, `Medium`, or `Low`), area, and date. Summary numbers and the suggested actions are separate HTML text, so update those when your team metrics change.
+Notes are saved in the browser's local storage. They remain in that browser on that device and are not shared with teammates. Use **Export notes** to save a JSON backup. Clearing browser storage will remove saved notes.
 
-Keep evidence aggregated and anonymized. Do not commit customer names, identifiable quotes, or confidential product data to a public repository.
+For shared team use, connect the page to a shared data source in a later version. Do not put identifiable customer details or confidential information in a public repository.
 
-## Publish with GitHub Pages
+## Publish
 
-1. Create a GitHub repository and add `index.html` and `README.md` to its root.
-2. In the repository, open **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**, select your default branch and the `/ (root)` folder, then save.
-4. GitHub will show the published site URL in the Pages settings.
-
-There is no build step or external dependency. The site works on mobile and desktop.
+The site is served from the `main` branch root using GitHub Pages. It has no build step or external dependency.
