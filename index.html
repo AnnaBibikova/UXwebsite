@@ -11,6 +11,11 @@
     @media(max-width:800px){.shell{padding:22px 18px 46px}.content{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--line)}.heading h1{font-size:29px}.top{margin-bottom:30px}}
     @media(max-width:480px){.heading{align-items:flex-start;flex-direction:column}.top-right .date{display:none}.metrics .metric{padding:15px}.metric-value{font-size:23px}.toolbar{overflow-x:auto}.signal-top{align-items:flex-start}.foot{gap:12px;flex-direction:column}}
   </style>
+  <style>
+    .heading{position:relative;min-height:176px}
+    .heading .button{position:absolute;right:6.35%;top:50%;transform:translateY(-50%);margin:0}
+    @media(max-width:480px){.heading{min-height:0}.heading .button{position:static;transform:none;margin-top:18px}}
+  </style>
 </head>
 <body>
   <main class="shell">
